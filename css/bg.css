@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    min-height: 650px;
+    padding: 0px;
+    background: url(https://www.scdn.co/i/free/bubbles-mobile.svg) center center / 100% 707px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#myimg img{
+  width: 250px;
+  height: auto;
+}
+#myimg{
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+}
+#descr{
+  position: absolute;
+  font-weight: bold;
+  width: 700px;
+  font-size: 56px;
+  color: #fff;
+  right: 100px;
+  top: 200px;
+}
+
+#but{
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  padding:15px 25px;
+  border-radius: 70px;
+}
+#but:hover{
+  background: #000;
+  color: #fff;
+  font-size: 22px;
+
+}
+
+/*START MENU*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+  background-color: #000;
+  position: relative;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  color: #04AA6D;
+}
+#logo img{
+  width: 40px;
+}
+#logo{
+  display: flex;
+  float: left;
+  font-size: 26px;
+  left: 100px;
+  position: absolute;
+}
+
+#mymenu{
+  margin-right: 100px;
+}
+
+
+/* END MENU */
+
+
+#spotify{ 
+   width: 90%;
+   min-height: 500px;
+   background: #fff;
+   margin: auto;
+   display: flex;
+
+ }
+h3{
+  text-align: center;
+  font-size: 46px;
+  color: #000;
+  margin-top: 90px;
+ }
+#spotify .item{ 
+  width: 20%;
+  text-align: center;
+  margin: auto;
+
+ }
+#spotify .item .spotify_img img{ width: 60%; border-radius: 100%;}
+#spotify .item .spotify_title{ font-size: 25px; font-weight: bold; color: #000; line-height: 2;}
+#spotify .item .spotify_descr{ font-size: 19px; }
+
+
+
+#tpo img{
+  width: 100px;
+  height: auto;
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+  position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
